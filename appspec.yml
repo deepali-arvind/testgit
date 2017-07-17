@@ -4,7 +4,7 @@ files:
   - source: /index.html
     destination: /var/www/html/
 hooks:
-  Apache2:
+  DownloadBundle:
     - location: scripts/apache2_install.sh
           timeout: 300
           runas: ubuntu
